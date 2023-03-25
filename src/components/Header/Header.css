@@ -1,0 +1,5 @@
+.header {
+    width: 20vw;
+    height: 100vh;
+    background-color: var(--cor-principal-integra);
+}

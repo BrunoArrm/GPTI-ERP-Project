@@ -1,5 +1,9 @@
 :root {
+  /* Fonte padrão */
   font-family: 'Poppins', sans-serif;
+
+  /* Cores padrão */
+  --cor-principal-integra: #002c5f;
 }
 
 /* Reset de espaçamento */
@@ -7,4 +11,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Define o Header sempre na lateral esquerda da página */
+.page-container {
+  display: flex;
 }
