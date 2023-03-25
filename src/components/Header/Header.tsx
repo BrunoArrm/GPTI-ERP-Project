@@ -1,12 +1,18 @@
-import React from 'react';
+import FaleConosco from '../FaleConosco/FaleConosco';
 import './Header.css';
 
 function Header() {
-  return (
-    <div className='header'>
-      Header
-    </div>
-  );
+    return (
+        <header className='header'>
+
+            <div className='apresentacao'>
+                {/* //Melhorar a qualidade do arquivo de logomarca */}
+                <div className='header__logo' />
+                <FaleConosco />
+            </div>
+            
+        </header>
+    );
 }
 
 export default Header;

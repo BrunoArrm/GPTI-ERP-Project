@@ -1,0 +1,27 @@
+.redeSocial {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rede-instagram {
+    background-image: url('../../assets/images/icons/midias/instagram.png');
+}
+
+.rede-facebook {
+    background-image: url('../../assets/images/icons/midias/facebook.png');
+}
+
+.rede-linkedin {
+    background-image: url('../../assets/images/icons/midias/linkedin.png');
+}
+
+.rede-whatsapp {
+    background-image: url('../../assets/images/icons/midias/whatsapp.png');
+}
+
+.rede-website {
+    background-image: url('../../assets/images/icons/midias/portal.png');
+}
