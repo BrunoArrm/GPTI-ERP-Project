@@ -1,4 +1,7 @@
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-width: 250px;
     width: fit-content;
     height: 100vh;

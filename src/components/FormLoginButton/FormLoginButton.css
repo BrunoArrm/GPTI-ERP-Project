@@ -1,0 +1,23 @@
+.formLoginButton {
+
+    width: 20%;
+    height: var(--altura-focus);
+    border: none;
+    background-color: var(--cor-principal-integra);
+    border-radius: var(--borda-padrao);
+    transition: .2s ease-in-out;
+}
+
+.formLoginButton button {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.formLoginButton:hover {
+    transform: scale(1.1);
+}

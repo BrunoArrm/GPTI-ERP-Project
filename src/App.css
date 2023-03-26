@@ -4,7 +4,14 @@
 
   /* Cores padrão */
   --cor-principal-integra: #002c5f;
-  --cor-principal-background: #29475f;
+  --cor-principal-background: #056A6B;
+  --cor-sem-destaque: #afafaf;
+
+  /* Arredondamento de borda padrão */
+  --borda-padrao: 5px;
+
+  /* Altura padrão para inputs e botões */
+  --altura-focus: 35px;
 }
 
 /* Reset de espaçamento */
@@ -12,6 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--cor-principal-integra);
 }
 
 /* Define o Header sempre na lateral esquerda da página */

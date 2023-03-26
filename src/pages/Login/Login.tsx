@@ -1,9 +1,10 @@
-import React from 'react';
+import FormLogin from '../../components/FormLogin/FormLogin';
+import './Login.css';
 
 function Login() {
   return (
-    <div>
-      Login
+    <div className='login'>
+      <FormLogin empresa='GPTI - Integra Engenharia de Sistemas'/>
     </div>
   );
 }

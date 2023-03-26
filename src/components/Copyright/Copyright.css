@@ -1,0 +1,25 @@
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+}
+
+.copyright__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__ano {
+    margin-right: 3px;
+}
+
+.container__empresa {
+    font-weight: bold;
+}
+
+.copyright p,
+.copyright__container p {
+    color: white;
+}
