@@ -1,0 +1,20 @@
+.selecionarWorkSpaceEmpresa {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.workSpaces__dado {
+    text-align: center;
+    padding: 2px;
+    width: 50%;
+    border-bottom: 1px solid var(--cor-principal-integra);
+}
+
+.selecionarWorkSpaceEmpresa__nome {
+    border-left: 1px solid var(--cor-principal-integra);
+}
+
+.selecionarWorkSpaceEmpresa__cnpj {
+    border-right: 1px solid var(--cor-principal-integra);
+}

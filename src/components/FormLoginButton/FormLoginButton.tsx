@@ -3,7 +3,7 @@ import './FormLoginButton.css';
 
 function FormLoginButton() {
   return (
-    <Link className='formLoginButton' to="/home">
+    <Link className='formLoginButton' to="/selecionarWorkSpace">
         <button>
             Entrar
         </button>

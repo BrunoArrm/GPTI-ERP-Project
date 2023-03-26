@@ -4,17 +4,19 @@ import Contatos from '../../pages/Contatos/Contatos';
 import Home from '../../pages/Home/Home';
 import Login from '../../pages/Login/Login';
 import Produtos from '../../pages/Produtos/Produtos';
+import SelecionarWorkSpace from '../../pages/SelecionarWorkspace/SelecionarWorkSpace';
 import Vendas from '../../pages/Vendas/Vendas';
 
 function Rotas() {
   return (
 
     <Routes>
-      <Route path='/'           element={ <Login />     as React.ReactElement } />
-      <Route path='/home'       element={ <Home />      as React.ReactElement } />
-      <Route path='/contatos'   element={ <Contatos />  as React.ReactElement } />
-      <Route path='/produtos'   element={ <Produtos />  as React.ReactElement } />
-      <Route path='/vendas'     element={ <Vendas />    as React.ReactElement } />
+      <Route path='/'                     element={ <Login />               as React.ReactElement } />
+      <Route path='/selecionarWorkSpace'  element={ <SelecionarWorkSpace /> as React.ReactElement } />
+      <Route path='/home'                 element={ <Home />                as React.ReactElement } />
+      <Route path='/contatos'             element={ <Contatos />            as React.ReactElement } />
+      <Route path='/produtos'             element={ <Produtos />            as React.ReactElement } />
+      <Route path='/vendas'               element={ <Vendas />              as React.ReactElement } />
     </Routes>
 
   );
