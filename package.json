@@ -2,13 +2,14 @@
   "name": "gpti-erp-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://brunoarrm.github.io/GPTI-ERP-Project/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
