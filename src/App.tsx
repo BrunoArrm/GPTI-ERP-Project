@@ -6,7 +6,7 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className='page-container'>
-      <BrowserRouter>
+      <BrowserRouter basename="/GPTI-ERP-Project">
         <Header />
         <Rotas />
       </BrowserRouter>
