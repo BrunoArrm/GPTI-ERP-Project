@@ -1,3 +1,4 @@
+import EsqueciMinhaSenha from '../EsqueciMinhaSenha/EsqueciMinhaSenha';
 import FormLoginButton from '../FormLoginButton/FormLoginButton';
 import FormLoginInput from '../FormLoginInput/FormLoginInput';
 import './FormLogin.css';
@@ -15,6 +16,7 @@ function FormLogin({ empresa }: FormLoginProps) {
         <FormLoginInput nome='Senha' tipo='password' texto='Digite sua senha'/>
       </div>
       <FormLoginButton />
+      <EsqueciMinhaSenha />
     </form>
   );
 }

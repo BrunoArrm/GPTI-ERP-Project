@@ -22,6 +22,10 @@
   color: var(--cor-principal-integra);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Define o Header sempre na lateral esquerda da página */
 .page-container {
   display: flex;

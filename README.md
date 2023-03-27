@@ -42,4 +42,8 @@ Código: https://github.com/BrunoArrm/GPTI-ERP-Project
 
 - Desenvolver o o backend utilizando o máximo das funções do React Hooks sem comprometer a segurança e a performance do aplicativo;
 
+<<<<<<< HEAD
 - Estilização sob a metodologia BEM CSS. Futuramente poderá ser implementado StyledComponents;
+=======
+- Estilização sob a metodologia BEM CSS. Futuramente poderá ser implementado StyledComponents;
+>>>>>>> 9db1d884243af4e8e29e7cb50a909bb442d53ae7
