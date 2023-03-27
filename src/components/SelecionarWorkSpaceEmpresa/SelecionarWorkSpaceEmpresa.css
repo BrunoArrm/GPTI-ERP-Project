@@ -15,6 +15,11 @@
     border-left: 1px solid var(--cor-principal-integra);
 }
 
-.selecionarWorkSpaceEmpresa__cnpj {
+.selecionarWorkSpaceEmpresa__municipio {
     border-right: 1px solid var(--cor-principal-integra);
+}
+
+.selecionarWorkSpaceEmpresa:hover {
+    background-color: var(--cor-sem-destaque);
+    font-weight: bold;
 }

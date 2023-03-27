@@ -9,7 +9,7 @@ interface FormLoginProps {
 function FormLogin({ empresa }: FormLoginProps) {
   return (
     <form className='formLogin'>
-      <h2>Bem vindo(a): {empresa}</h2>
+      <h2>Bem vindo ao {empresa}</h2>
       <div className='formLogin__inputsContainer'>
         <FormLoginInput nome='Usuário ou Email' tipo='email' texto='Digite seu email'/>
         <FormLoginInput nome='Senha' tipo='password' texto='Digite sua senha'/>
